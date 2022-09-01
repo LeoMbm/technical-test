@@ -45,8 +45,15 @@ def gameOfLife(board):
             board[i][j] >>= 1
     return board
 
+def sumArray(arr):
+    number = 0
+    for i in arr:
+        number += i
+    return number
 
 if __name__ == '__main__':
     matrix = np.random.randint(0, high=2, size=(5, 5))
     fizzbuzz()
     print(gameOfLife(matrix))
+    arr = [2,7,8,9,5,4]
+    print(sumArray(arr))
