@@ -45,6 +45,14 @@ def gameOfLife(board):
             board[i][j] >>= 1
     return board
 
+# Ex 5: MySum
+
+# - Write a function that takes an array of numbers in parameter (no joke : no None, no strings, only real numbers)
+
+# - Output the sum of these number, without using the sum() function.
+
+# - Bonus Point: Use recursion to get this sum
+
 def sumArray(arr):
     number = 0
     for i in arr:
