@@ -50,3 +50,9 @@
 - Output the sum of these number, without using the sum() function.
 
 - Bonus Point: Use recursion to get this sum
+
+### Ex 6: OXO (Bonus after the 5 other ex.) in [exo6.py](https://github.com/LeoMbm/technical-test/blob/main/exo6.py)
+
+- Write a small program that can play OXO game (so, within a 3x3 matrix, try to get three X or three O on the same line)
+The def of your function should be def turn(game, symbol): game being the 3x3 matrix, symbol being 'O' or 'X'.
+You can test your program against itself with this arena : https://github.com/pierrelocus/oxo_arena
